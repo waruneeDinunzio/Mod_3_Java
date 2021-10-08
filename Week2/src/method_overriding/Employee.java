@@ -24,11 +24,11 @@ public class Employee extends Person {
 	}
 	
 	public void createAddress() {
-		this.addr = new Address();
-		this.addr.street = "30 webster st.";
-		this.addr.city = "Boston";
-		this.addr.state = "MA";
-		this.addr.zipcode = 02446;
+		addr = new Address();
+		addr.street = "30 webster st.";
+		addr.city = "Boston";
+		addr.state = "MA";
+		addr.zipcode = 02446;
 	}
 	
 	public void Hello() {
@@ -50,7 +50,7 @@ public class Employee extends Person {
 		System.out.println("Salary: " + this.salary);
 		System.out.println("Bonus: " + this.calculate());
 		
-		//System.out.println(addr.street);
+		System.out.println(addr.street);
 		System.out.println(addr.city);
 		System.out.println(addr.state);
 		System.out.println(addr.zipcode);
