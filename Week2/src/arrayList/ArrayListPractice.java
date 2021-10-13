@@ -3,6 +3,15 @@ package arrayList;
 import java.util.*;
 
 public class ArrayListPractice {
+	/*
+	 * Tasks:
+1. Practice raw array list and/or restrictive array list.
+2. Get familiar with add(), get(), and printing the length of the list using size().
+3. In CreateCustomer.java, add your customers to your Customer ArrayList.
+	- Don’t forget to use add()	
+	- If you are working with more variables, print those.
+	- Comment out your getters from previous lesson, and use a for loop to print values to avoid cluttering your console.
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
